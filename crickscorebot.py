@@ -30,7 +30,6 @@ while True:
                     else:
                         msg = msg + isLive['team']['name']+" scored: "+isLive['score'] + "\n"
                 if isLive['isLive'] == True:
-                    print("# sLive[isLive] == True")
                     if scorelist[count] == 0:
                         scorelist.insert(count, isLive['score'])
                         flag = True
